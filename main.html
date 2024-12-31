@@ -3,25 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Cards</title>
+  <title>Bootstrap Card Example</title>
   <!-- Bootstrap CSS -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     rel="stylesheet"
-  >
+  />
 </head>
-<body class="bg-light">
-
-  <div class="container mt-5">
-    <!-- Card Deck -->
-    <div class="card-deck d-flex justify-content-between">
+<body>
+  <div class="container mt-4">
+    <div class="card-deck">
       <!-- First Card -->
       <div class="card">
-        <div class="card-header bg-primary text-white">
-          New Features
-        </div>
+        <div class="card-header">New Features</div>
         <div class="card-body">
-          <h5 class="card-title">Mobile and Tablet Support</h5>
+          <h5 class="card-title">Mobile and Tablet support</h5>
           <p class="card-text">
             With this new update you will be able to sync your work across a large number of platforms.
           </p>
@@ -30,10 +26,8 @@
       </div>
 
       <!-- Second Card -->
-      <div class="card">
-        <div class="card-header bg-danger text-white">
-          Alert
-        </div>
+      <div class="card bg-danger text-white">
+        <div class="card-header">Alert</div>
         <div class="card-body">
           <h5 class="card-title">Node Dead</h5>
           <p class="card-text">Node 5 (east-us) is offline for the last 12 days.</p>
@@ -41,28 +35,17 @@
       </div>
     </div>
 
-    <!-- Third Card -->
+    <!-- Third Section -->
     <div class="card mt-4">
-      <img
-        src="https://via.placeholder.com/900x400"
-        class="card-img-top"
-        alt="Underwater image"
-      >
+      <img src="https://via.placeholder.com/800x200" class="card-img-top" alt="Underwater Image" />
       <div class="card-body">
         <h5 class="card-title">President under Pressure</h5>
         <p class="card-text">
           The US president is under pressure to respond to a widespread cyber-attack linked to China.
         </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 12 mins ago</small>
-        </p>
+        <p class="text-muted">Last updated 12 mins ago</p>
       </div>
     </div>
   </div>
-
-  <!-- Bootstrap JS Bundle -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-  ></script>
 </body>
 </html>
